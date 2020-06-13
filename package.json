@@ -1,0 +1,10 @@
+{
+  "name": "bundle-javascript-quickstarts",
+  "description": "Dev servers",
+  "scripts": {
+    "dev:bundling": "live-server quickstars/bundling/dist/"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
