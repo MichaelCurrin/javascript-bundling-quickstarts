@@ -7,21 +7,23 @@ Based on this article:
 - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) - Sitepoint post in 2016.
 
 
-## Why bundle and transpile?
+## Why transpile?
 
-If you use the tools covered in this doc or the examples, then you can generate a single JS file to be loaded on the frontend. Using the supported browser syntax, appropriate imports, namespacing an also it means fewer requests. And you can write imports and tests for your server-side scripts and have the scripts available on the frontend.
+We use a bundler to take modules with dependencies and generate static assets representing those modules.
+
+Features:
+
+- Allows imports with `require('modules')` - whether your own module like `lib.js` or an external NPM package like `lodash`.
+- No globals required.
+- Source order independence.
+- No need for namespacing your own application code.
+
+
+## Why transpile?
 
 Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatability. TypeScript also needs transpiling.
 
 
-## Project structure
-
-Quickstart directories:
-
-- [bundling](/quickstarts/bundling/)
-    - Examples of how to use Browserify or Webpack.
-- [transpiling](/quickstarts/transpiling/)
-    - Example of how to use TypeScript or Babel. 
 
 
 ## Resources
