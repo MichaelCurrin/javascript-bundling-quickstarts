@@ -2,16 +2,16 @@
 > Examples of how to bundle a JS app - using webpack and other tools
 
 
-Based on article:
+Based on this article:
 
-- https://www.sitepoint.com/javascript-modules-bundling-transpiling/
+- [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) - Sitepoint post in 2016.
 
 
 ## Why bundle and transpile?
 
 If you use the tools covered in this doc or the examples, then you can generate a single JS file to be loaded on the frontend. Using the supported browser syntax, appropriate imports, namespacing an also it means fewer requests. And you can write imports and tests for your server-side scripts and have the scripts available on the frontend.
 
-Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code. TypeScript also needs transpiling.
+Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatability. TypeScript also needs transpiling.
 
 
 ## Project structure
@@ -47,7 +47,8 @@ CSS bundlers:
 
 - [Babel](https://babeljs.io/)
 - [TypeScript](http://www.typescriptlang.org/)
-
+    - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+    - [React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) in TS docs.
 
 ### Dynamic loading of modules
 
@@ -68,3 +69,8 @@ CSS bundlers:
         $ live-server
         ```
 - VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+
+
+## License
+
+Released under [MIT](/LICENSE).
