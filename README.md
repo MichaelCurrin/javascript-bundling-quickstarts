@@ -19,7 +19,7 @@ Features:
 - No need for namespacing your own application code.
 
 
-See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) directories in this project. The output will be the same but with different styles for logging and output.
+See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) directories in this project. These compile using CommonJS modules. The output will be the same but with different styles for logging and output.
 
 
 ## Why transpile?
