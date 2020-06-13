@@ -18,14 +18,15 @@ Features:
 - Source order independence.
 - No need for namespacing your own application code.
 
-The output will be the same in the `browserify` and `webpack` directories in this project but with different style logging and output.
+
+See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) directories in this project. The output will be the same but with different styles for logging and output.
 
 
 ## Why transpile?
 
 Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatability. TypeScript also needs transpiling.
 
-
+See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) directories.
 
 
 ## Resources
@@ -59,7 +60,8 @@ CSS bundlers:
 - [Require.js](https://requirejs.org)
 - [System.js](https://github.com/systemjs/systemjs)
 
-## Live servers
+
+### Live servers
 
 - [live-server](https://www.npmjs.com/package/live-server)
     - A great zero-config HTTP server with live reload capability. 
