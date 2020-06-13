@@ -2,6 +2,8 @@
 
 Based on [React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) example in the TypeScript docs.
 
+See [React tutorial](https://reactjs.org/tutorial/tutorial.html) if you are new to React.
+
 
 ## Packages used
 

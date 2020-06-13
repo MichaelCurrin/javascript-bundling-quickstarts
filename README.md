@@ -61,7 +61,6 @@ CSS bundlers:
 - [Require.js](https://requirejs.org)
 - [System.js](https://github.com/systemjs/systemjs)
 
-
 ### Live servers
 
 - [live-server](https://www.npmjs.com/package/live-server)
