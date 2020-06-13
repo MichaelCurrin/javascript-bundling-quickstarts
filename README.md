@@ -37,6 +37,7 @@ JS bundlers:
 
 - [Webpack](http://webpack.github.io/)
     - [Getting started with Webpack](webpack.github.io/docs/tutorials/getting-started/)
+    - [Concepts](https://webpack.js.org/concepts)
 - [Browserify](http://browserify.org/)
 - [JSPN](http://jspm.io/)
 - [Rollup](http://rollupjs.org/)
