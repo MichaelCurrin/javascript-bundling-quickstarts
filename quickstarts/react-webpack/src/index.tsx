@@ -7,7 +7,7 @@ import { Goodbye } from "./components/Goodbye";
 
 ReactDOM.render(
     <div>
-        <Header/>
+        <Header />
         <Hello compiler="TypeScript" framework="React" />
         <Goodbye compiler="TypeScript" framework="React" />
     </div>,
