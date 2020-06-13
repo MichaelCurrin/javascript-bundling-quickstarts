@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-quickstart",
   "scripts": {
-    "build": ""
+    "build": "webpack"
   },
   "devDependencies": {
     "@types/react": "^16.9.36",

@@ -32,8 +32,10 @@ $ npm i
 
 ## Run
 
+Run Webpack to compile the `main.js` script and `main.js.map` file.
+
 ```sh
-$ npx webpack
+$ npm run build
 ```
 
 
