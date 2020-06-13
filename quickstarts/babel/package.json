@@ -1,0 +1,10 @@
+{
+  "name": "babel-quickstart",
+  "scripts": {
+    "babel": "babel src/es6-lib.js -o dist/es6-lib.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+  }
+}

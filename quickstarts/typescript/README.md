@@ -1,7 +1,6 @@
-# Transpiling
+# TypeScript
 
-Examples of transpiling from TypeScript to plain JS or ES6 to older ES5 JS for compatibility.
-
+Example of transpiling from TypeScript to plain JS.
 
 ## Packages used
 
@@ -23,30 +22,15 @@ Examples of transpiling from TypeScript to plain JS or ES6 to older ES5 JS for c
 - [@types/lodash](https://www.npmjs.com/package/@types/lodash)
 - [@types/node](https://www.npmjs.com/package/@types/node)
     - Included here to avoid error when using `require`. Using `import _ from 'lodash'` gave issues because of the underscore but it is fine when using `require`.
-- Babel
-    - [npm package](https://www.npmjs.com/package/Babel)
-    - [babeljs.io/](https://babeljs.io/)
-    - Allow modern syntax - as it transpiles ES6 syntax to older JS.
-
-Optionally add a Babel config file and setup [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env).
 
 
 ## Install
 
 ```sh
-$ cd transpiling
 $ npm i
 ```
 
 ## Build
-
-TypeScript:
-
-```sh
-$ npm run tsc
-```
-
-Babel:
 
 ```sh
 $ npm run babel

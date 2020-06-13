@@ -7,7 +7,7 @@ Based on this article:
 - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) - Sitepoint post in 2016.
 
 
-## Why transpile?
+## Why bundler?
 
 We use a bundler to take modules with dependencies and generate static assets representing those modules.
 
@@ -17,6 +17,8 @@ Features:
 - No globals required.
 - Source order independence.
 - No need for namespacing your own application code.
+
+The output will be the same in the `browserify` and `webpack` directories in this project but with different style logging and output.
 
 
 ## Why transpile?
