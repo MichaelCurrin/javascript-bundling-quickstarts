@@ -1,8 +1,8 @@
 {
   "name": "transpiling",
   "scripts": {
-    "tsc": "tsc --outDir ./dist ./src/ts-lib.ts",
-    "babel": "babel ./src/es6-lib.js -o ./dist/es6-lib.js"
+    "tsc": "tsc src/ts-lib.ts --outDir dist ",
+    "babel": "babel src/es6-lib.js -o dist/es6-lib.js"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.155",
