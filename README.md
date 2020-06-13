@@ -7,11 +7,21 @@ Based on article:
 - https://www.sitepoint.com/javascript-modules-bundling-transpiling/
 
 
-## Why bundle?
+## Why bundle and transpile?
 
 If you use the tools covered in this doc or the examples, then you can generate a single JS file to be loaded on the frontend. Using the supported browser syntax, appropriate imports, namespacing an also it means fewer requests. And you can write imports and tests for your server-side scripts and have the scripts available on the frontend.
 
 Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code. TypeScript also needs transpiling.
+
+
+## Project structure
+
+Quickstart directories:
+
+- [bundling](/quickstarts/bundling/)
+    - Examples of how to use Browserify or Webpack.
+- [transpiling](/quickstarts/transpiling/)
+    - Example of how to use TypeScript or Babel. 
 
 
 ## Resources
@@ -35,7 +45,7 @@ CSS bundlers:
 
 ### Transpilers
 
-- [Babel](https://babeljs.io/) - for ES6
+- [Babel](https://babeljs.io/)
 - [TypeScript](http://www.typescriptlang.org/)
 
 

@@ -26,7 +26,7 @@ Examples of transpiling from TypeScript to plain JS or ES6 to older ES5 JS for c
 - Babel
     - [npm package](https://www.npmjs.com/package/Babel)
     - [babeljs.io/](https://babeljs.io/)
-    - Transpile ES6 JS to older JS.
+    - Allow modern syntax - as it transpiles ES6 syntax to older JS.
 
 Optionally add a Babel config file and setup [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env).
 
@@ -45,3 +45,11 @@ TypeScript:
 ```sh
 $ npm run tsc
 ```
+
+Babel:
+
+```sh
+$ npm run babel
+```
+
+There is no frontend to view but you can see the [dist](dist/) directory.
