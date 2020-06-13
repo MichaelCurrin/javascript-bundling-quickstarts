@@ -1,13 +1,28 @@
 # Bundle Javascript Quickstarts
-> Examples of how to bundle a JS app - using webpack and other tools
+> How to bundle your JS as a single script - using Webpack, Browserify, Babel or TypeScript
 
 
-Based on this article:
+## About
 
-- [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) - Sitepoint post in 2016.
+Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016)
+
+Explore the examples in the [quickstarts](/quickstarts/) directory. 
+
+To run the apps locally:
+
+1. Install Node.js 
+    - Follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
+1. Clone the repo.
+1. Navigate to a target app. e.g.
+    ```sh
+    $ cd quickstarts/babel
+    ```
+1. Follow the `README.md` instructions at that level to install and run the app.
 
 
-## Why bundler?
+## Why?
+
+### Why bundle scripts?
 
 We use a bundler to take modules with dependencies and generate static assets representing those modules.
 
@@ -18,11 +33,10 @@ Features:
 - Source order independence.
 - No need for namespacing your own application code.
 
-
 See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) directories in this project. These compile using CommonJS modules. The output will be the same but with different styles for logging and output.
 
 
-## Why transpile?
+### Why transpile scripts?
 
 Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatability. TypeScript also needs transpiling.
 
