@@ -3,7 +3,7 @@
 ## Packages used
 
 - [webpack](http://webpack.github.io/) package
-- [webpack-cli] package - Webpack fails without this.
+- `webpack-cli` package - Webpack fails without this.
     - [docs](https://webpack.js.org/api/cli/)
     - [npm](https://www.npmjs.com/package/webpack-cli)
         - Usage without config:

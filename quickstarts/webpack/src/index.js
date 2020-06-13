@@ -1,4 +1,4 @@
-var lib = require('./external-import.js');
+var lib = require('./external-imports.js');
 
 console.log('Lodash tests');
 console.log(lib.double(2));
