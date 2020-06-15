@@ -18,7 +18,7 @@ Most of this project is based on this article - [Understanding JavaScript Module
 
 Explore the examples in the [quickstarts](/quickstarts/) directory.
 
-To run the apps locally:
+To run an app locally, follow these steps:
 
 1. Install Node.js
     - Follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
@@ -27,7 +27,7 @@ To run the apps locally:
     ```sh
     $ cd quickstarts/babel
     ```
-1. Follow the `README.md` instructions at that level to install and run the app.
+1. Follow the `README.md` instructions at that level to install and then build the app. Test in the browser if indicated to.
 
 
 ## Why?
