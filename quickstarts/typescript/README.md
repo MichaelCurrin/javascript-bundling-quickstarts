@@ -34,7 +34,7 @@ $ npm i
 ## Build
 
 ```sh
-$ npm run babel
+$ npm run build
 ```
 
 There is no frontend to view but you can see the [dist](dist/) directory.
