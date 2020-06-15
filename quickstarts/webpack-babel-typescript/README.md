@@ -41,3 +41,9 @@ Start a dev server in the [dist](dist/) directory.
 Open in the browser.
 
 Check the dev console output.
+
+Or test with:
+
+```sh
+$ node dist/bundle.js
+```
