@@ -1,5 +1,15 @@
-# Bundle Javascript Quickstarts
-> How to bundle your JS as a single script - using Webpack, Browserify, Babel or TypeScript
+# Javascript Bundling Quickstarts
+> How to bundle your JS and get a single script to load on the frontend
+
+
+## Featured tools
+
+There are standalone examples in this project to demonstrate one or more of these to bundle and transpile (if needed) the JS
+
+- Webpack
+- Browserify
+- Babel (process ES6)
+- TypeScript
 
 
 ## About
@@ -66,6 +76,9 @@ CSS bundlers:
 ### Transpilers
 
 - [Babel](https://babeljs.io/)
+    - This can do a lot and the site covers it well.
+    - One use-case is transpiling JSX syntax for React to just JS.
+    - Another is transpiling ES6 to older JS.
 - [TypeScript](http://www.typescriptlang.org/)
     - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
     - [React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) in TS docs.
