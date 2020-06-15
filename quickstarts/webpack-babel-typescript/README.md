@@ -1,6 +1,7 @@
-# Webpack Babel TypeScript
+# Webpack + Babel + TypeScript quickstart
 
-Extend the [Webpack example](../webpack) by adding support for Babel and TypeScript.
+Extends the [Webpack example](../webpack/) by adding support for Babel and TypeScript.
+
 
 ## Packages used
 
@@ -23,6 +24,7 @@ Extend the [Webpack example](../webpack) by adding support for Babel and TypeScr
 $ npm i
 ```
 
+
 ## Build
 
 ```sh
@@ -30,6 +32,7 @@ $ npm run build
 ```
 
 This will have to be re-run every time JS files change.
+
 
 ## View
 
