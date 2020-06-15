@@ -1,15 +1,15 @@
 # Javascript Bundling Quickstarts
-> Approaches to process and bundle your JS as a single script for the frontend
+> How to bundle your JS as a single script - using Webpack, Browserify, Babel or TypeScript
 
 
 ## Featured tools
 
-There are standalone examples in this project to demonstrate one or more of these to bundle and transpile (if needed) the JS
+There are standalone examples in this project in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools. Some include an `index.html` to test the JS in the browser.
 
 - Webpack
 - Browserify
-- Babel (process ES6)
-- TypeScript
+- Babel - transpile from ES6 to older JS
+- TypeScript - transpile to JS
 
 
 ## About
@@ -104,6 +104,8 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 
 ## Development
 
+### Lint
+
 Install `eslint` globally.
 
 Check for errors.
@@ -117,6 +119,9 @@ Apply fixes.
 ```sh
 $ eslint . --fix
 ```
+
+Commit and push.
+
 
 ## License
 
