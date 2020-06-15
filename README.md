@@ -12,22 +12,49 @@ There are standalone examples in this project in the [quickstarts](/quickstarts/
 - TypeScript - transpile to JS
 
 
-## About
-
 Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016)
+
+
+## Installation
+
+## System dependencies
+
+Install Node.js - follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
+
+## Clone the repo.
+
+```sh
+$ git clone URL
+```
+
+## Install project dependencies
+
+Run this command to install dependencies for _all_ quickstarts. Otherwise skip to the next section to install dependencies for a chosen project.
+
+```sh
+$ make install
+```
+
+## Usage
 
 Explore the examples in the [quickstarts](/quickstarts/) directory.
 
-To run an app locally, follow these steps:
+To install and run an app, follow these steps:
 
-1. Install Node.js
-    - Follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
-1. Clone the repo.
+
 1. Navigate to a target app. e.g.
     ```sh
     $ cd quickstarts/babel
     ```
-1. Follow the `README.md` instructions at that level to install and then build the app. Test in the browser if indicated to.
+2. Install packages.
+    ```sh
+    $ npm i
+    ```
+3. Build the app.
+    ```sh
+    $ npm run build
+    ```
+4. Test in the browser if relevant.
 
 
 ## Why?
@@ -111,13 +138,13 @@ Install `eslint` globally.
 Check for errors.
 
 ```sh
-$ eslint .
+$ make lint
 ```
 
 Apply fixes.
 
 ```sh
-$ eslint . --fix
+$ make lint-fix
 ```
 
 Commit and push.

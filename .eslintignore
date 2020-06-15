@@ -1,0 +1,5 @@
+# This must be test as it is not builtin.
+**/node_modules/**
+
+# Avoid many errors on compiled files.
+**/dist/
