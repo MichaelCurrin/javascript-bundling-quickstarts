@@ -1,7 +1,7 @@
 {
   "name": "browserify-quickstart",
   "scripts": {
-    "build": "browserify src/index.js -o dist/bundle.js"
+    "build": "browserify src -o dist/bundle.js"
   },
   "devDependencies": {
     "browserify": "^16.5.1"

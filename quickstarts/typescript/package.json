@@ -1,7 +1,7 @@
 {
   "name": "typescript-quickstart",
   "scripts": {
-    "tsc": "tsc src/ts-lib.ts --outDir dist"
+    "build": "tsc src/ts-lib.ts --outDir dist"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.155",
