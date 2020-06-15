@@ -1,6 +1,6 @@
 # Webpack + Babel + TypeScript quickstart
 
-Extends the [Webpack example](../webpack/) by adding support for Babel and TypeScript.
+Extends the [Webpack example](../webpack/) by adding support for TypeScript and Babel (to transpile the TypeScript).
 
 
 ## Packages used

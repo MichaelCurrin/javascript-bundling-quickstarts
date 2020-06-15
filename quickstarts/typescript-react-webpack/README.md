@@ -1,26 +1,25 @@
 # TypeScript with React & Webpack quickstart
 
-Based on [React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) example in the TypeScript docs.
+Based on the [React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) example in the [TypeScript docs](https://www.typescriptlang.org/docs/).
 
-See [React tutorial](https://reactjs.org/tutorial/tutorial.html) if you are new to React.
+If you are new to React, see the [React tutorial](https://reactjs.org/tutorial/tutorial.html) .
 
 
 ## Packages used
 
-- `webpack` and `webpack-cli`
-- `react` and `react-dom`, plus their type definitions
+- `typescript`
 - `ts-loader`
     - Helps Webpack compile your TypeScript code using the `tsconfig.json` config
     - There are other TS loaders out there too.
+- `react` and `react-dom`, plus their type definitions
+- `webpack` and `webpack-cli`
 - `source-map-loader`
-    - Uses any sourcemap outputs from TypeScript to inform webpack when generating _its own_ sourcemaps. This will allow you to debug your final output file as if you were debugging your original TypeScript source code.
+    - Uses any `sourcemap` outputs from TypeScript to inform webpack when generating _its own_ `sourcemaps`. This will allow you to debug your final output file as if you were debugging your original TypeScript source code.
 
 
 ## Configuration
 
-See [tsconfig.json](tsconfig.json) - this determines input files and rules.
-
-Read more in the [docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+See [tsconfig.json](tsconfig.json) - this determines input files and rules. Read more in the TS [docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 
 ## Install
@@ -32,11 +31,13 @@ $ npm i
 
 ## Run
 
-Run Webpack to compile the `main.js` script and `main.js.map` file.
+Run this command to create the `main.js` script and `main.js.map` files to the `dist` directory.
 
 ```sh
 $ npm run build
 ```
+
+You can see in [package.json](package.json) that this command runs `webpack` with no arguments.
 
 
 ## Notes
