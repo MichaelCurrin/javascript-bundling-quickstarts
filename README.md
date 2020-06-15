@@ -16,11 +16,11 @@ There are standalone examples in this project to demonstrate one or more of thes
 
 Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016)
 
-Explore the examples in the [quickstarts](/quickstarts/) directory. 
+Explore the examples in the [quickstarts](/quickstarts/) directory.
 
 To run the apps locally:
 
-1. Install Node.js 
+1. Install Node.js
     - Follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
 1. Clone the repo.
 1. Navigate to a target app. e.g.
@@ -48,7 +48,7 @@ See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) 
 
 ### Why transpile scripts?
 
-Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatability. TypeScript also needs transpiling.
+Some server-side scripts are needed to prepare the scripts, such as Babel to transpile React code or just modern JS to older JS for compatibility. TypeScript also needs transpiling.
 
 See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) directories.
 
@@ -63,7 +63,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [Browserify](http://browserify.org/)
 - [JSPN](http://jspm.io/)
 - [Rollup](http://rollupjs.org/)
-- [Brunch](http://brunch.io/) / [Brocolli](http://broccolijs.com/)
+- [Brunch](http://brunch.io/) / [Broccoli](http://broccolijs.com/)
 - [Sprockets](https://github.com/rails/sprockets)
 
 ### CSS bundlers
@@ -89,7 +89,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 ### Live servers
 
 - [live-server](https://www.npmjs.com/package/live-server)
-    - A great zero-config HTTP server with live reload capability. 
+    - A great zero-config HTTP server with live reload capability.
     - It has about 150 dependencies though.
     - Install it globally with:
         ```sh
@@ -101,6 +101,22 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
         ```
 - VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
+
+## Development
+
+Install `eslint` globally.
+
+Check for errors.
+
+```sh
+$ eslint .
+```
+
+Apply fixes.
+
+```sh
+$ eslint . --fix
+```
 
 ## License
 
