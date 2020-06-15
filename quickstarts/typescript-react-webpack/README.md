@@ -1,4 +1,4 @@
-# React & Webpack Quickstart
+# TypeScript with React & Webpack quickstart
 
 Based on [React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) example in the TypeScript docs.
 
