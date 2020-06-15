@@ -1,5 +1,5 @@
 # Javascript Bundling Quickstarts
-> How to bundle your JS and get a single script to load on the frontend
+> Approaches to process and bundle your JS as a single script for the frontend
 
 
 ## Featured tools
@@ -55,9 +55,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 
 ## Resources
 
-### Bundlers
-
-JS bundlers:
+### JS bundlers
 
 - [Webpack](http://webpack.github.io/)
     - [Getting started with Webpack](webpack.github.io/docs/tutorials/getting-started/)
@@ -68,12 +66,12 @@ JS bundlers:
 - [Brunch](http://brunch.io/) / [Brocolli](http://broccolijs.com/)
 - [Sprockets](https://github.com/rails/sprockets)
 
-CSS bundlers:
+### CSS bundlers
 
 - `css-loader`
 - `style-loader`
 
-### Transpilers
+### JS transpilers
 
 - [Babel](https://babeljs.io/)
     - This can do a lot and the site covers it well.
@@ -83,7 +81,7 @@ CSS bundlers:
     - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
     - [React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) in TS docs.
 
-### Dynamic loading of modules
+### Dynamic loading of JS modules
 
 - [Require.js](https://requirejs.org)
 - [System.js](https://github.com/systemjs/systemjs)
