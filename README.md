@@ -14,6 +14,10 @@ There are standalone examples in this project in the [quickstarts](/quickstarts/
 
 Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016)
 
+## Requirements
+
+- Node.js
+
 
 ## Installation
 
@@ -24,7 +28,7 @@ Install Node.js - follow [instructions](https://gist.github.com/MichaelCurrin/aa
 ## Clone the repo.
 
 ```sh
-$ git clone URL
+$ git clone git@github.com:MichaelCurrin/javascript-bundling-quickstarts.git
 ```
 
 ## Install project dependencies
