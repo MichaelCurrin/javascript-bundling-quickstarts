@@ -4,15 +4,19 @@
 
 ## Featured tools
 
-There are standalone examples in this project in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools. Some include an `index.html` to test the JS in the browser.
+There are standalone examples in this project in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools.
 
-- Webpack
-- Browserify
-- Babel - transpile from ES6 to older JS
-- TypeScript - transpile to JS
+- Webpack (bundle)
+- Browserify (bundle)
+- Babel (transpile from ES6 to older JS)
+- TypeScript (transpile to JS)
 
+Some sections include an `index.html` to test the JS in the browser.
 
-Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016)
+Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016). There are other tools covered there which are similar to the ones above. The article says that this area is _complicated_.
+
+Are you tired of choosing and managing tools to bundle JS, transpile to older JS, transpile TS to JS and to run tests? Then look into [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno) - it is a modern alternative to NodeJS by the same author and it provides all the functionality just mentioned without extra depenedencies.
+
 
 ## Requirements
 
@@ -23,7 +27,7 @@ Most of this project is based on this article - [Understanding JavaScript Module
 
 ## System dependencies
 
-Install Node.js - follow [instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
+Install Node.js - follow these [gist instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
 
 ## Clone the repo.
 
