@@ -15,7 +15,7 @@ Some sections include an `index.html` to test the JS in the browser.
 
 Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016). There are other tools covered there which are similar to the ones above. The article says that this area is _complicated_.
 
-Are you tired of choosing and managing tools to bundle JS, transpile to older JS, transpile TS to JS and to run tests? Then look into [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno) - it is a modern alternative to NodeJS by the same author and it provides all the functionality just mentioned without extra depenedencies.
+If you are looking for a way to do all the bundling and transpiling tasks above and more without installing separate node packages, then consider switching from NodeJS to [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno/). It does all that and more.
 
 
 ## Requirements
