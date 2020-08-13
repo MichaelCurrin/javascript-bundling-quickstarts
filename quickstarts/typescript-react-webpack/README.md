@@ -4,12 +4,30 @@ Based on the [React & Webpack](https://www.typescriptlang.org/docs/handbook/reac
 
 If you are new to React, see the [React tutorial](https://reactjs.org/tutorial/tutorial.html).
 
-React typicall uses JSX syntax in `.jsx` files. This starter uses TypeScript as well so therefore the extension is `.tsx`.
+
+## Structure
+
+### Content
+
+React typically uses JSX syntax in `.jsx` files. This starter uses TypeScript as well so therefore the extension is `.tsx`.
+
+The content of this starter is:
+
+- [index.html](index.html)
+- [src/index.tsx](src/index.tsx)
+- [src/components](src/components) - see 3 TSX component modules
+
+### Configuration
+
+- [package.json](package.json) - See the **build** command runs `webpack`.
+- [tsconfig.json](tsconfig.json) - this determines input files and rules for TypeScript. Read more in the TS [docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+- [webpack.config.js](webpack.config.js) - Webpack build settings. Note that `ts-loader` (for `typescript`) and `react` are handled here, so that they do not have to specified in the **build** command.
 
 
 ## Packages used
 
 - `typescript`
+    - Typically used as `tsc ARGS`.
 - `ts-loader`
     - Helps Webpack compile your TypeScript code using the `tsconfig.json` config
     - There are other TS loaders out there too.
@@ -18,10 +36,6 @@ React typicall uses JSX syntax in `.jsx` files. This starter uses TypeScript as 
 - `source-map-loader`
     - Uses any `sourcemap` outputs from TypeScript to inform webpack when generating _its own_ `sourcemaps`. This will allow you to debug your final output file as if you were debugging your original TypeScript source code.
 
-
-## Configuration
-
-See [tsconfig.json](tsconfig.json) - this determines input files and rules. Read more in the TS [docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 
 ## Install
