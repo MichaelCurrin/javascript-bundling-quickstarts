@@ -2,7 +2,9 @@
 
 Based on the [React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) example in the [TypeScript docs](https://www.typescriptlang.org/docs/).
 
-If you are new to React, see the [React tutorial](https://reactjs.org/tutorial/tutorial.html) .
+If you are new to React, see the [React tutorial](https://reactjs.org/tutorial/tutorial.html).
+
+React typicall uses JSX syntax in `.jsx` files. This starter uses TypeScript as well so therefore the extension is `.tsx`.
 
 
 ## Packages used
