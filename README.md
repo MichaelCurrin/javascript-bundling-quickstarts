@@ -1,13 +1,13 @@
 # Javascript Bundling Quickstarts
-> How to bundle your JS as a single script - using Webpack, Browserify, Babel or TypeScript
+> How to transpile and bundle your JS - using Webpack, Browserify, Babel or TypeScript
 
 
 ## Featured tools
 
-There are standalone examples in this project in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools.
+This project provides a couple of standalone starter samples in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools.
 
-- Webpack (bundle)
-- Browserify (bundle)
+- Webpack (bundle to single JS file)
+- Browserify (also bundle to single JS file)
 - Babel (transpile from ES6 to older JS)
 - TypeScript (transpile to JS)
 
