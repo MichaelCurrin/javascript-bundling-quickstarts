@@ -4,6 +4,8 @@ Based on the [React & Webpack](https://www.typescriptlang.org/docs/handbook/reac
 
 If you are new to React, see the [React tutorial](https://reactjs.org/tutorial/tutorial.html).
 
+For another template for React and TypeScript, see [andrewprifer-cra-template-typescript](https://github.com/AndrewPrifer/andrewprifer-cra-template-typescript/tree/master/template). That can be used to bootstrap a new project with `npx create-react-app my-app --template @andrewprifer/typescript`.
+
 
 ## Structure
 
@@ -35,7 +37,6 @@ The content of this starter is:
 - `webpack` and `webpack-cli`
 - `source-map-loader`
     - Uses any `sourcemap` outputs from TypeScript to inform webpack when generating _its own_ `sourcemaps`. This will allow you to debug your final output file as if you were debugging your original TypeScript source code.
-
 
 
 ## Install
