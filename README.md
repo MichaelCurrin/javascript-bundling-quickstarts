@@ -1,4 +1,4 @@
-# Javascript Bundling Quickstarts
+# JavaScript Bundling Quickstarts
 > How to transpile and bundle your JS - using Webpack, Browserify, Babel or TypeScript
 
 
@@ -15,7 +15,7 @@ Some sections include an `index.html` to test the JS in the browser.
 
 Most of this project is based on this article - [Understanding JavaScript Modules: Bundling & Transpiling](https://www.sitepoint.com/javascript-modules-bundling-transpiling/) (Sitepoint post, 2016). There are other tools covered there which are similar to the ones above. The article says that this area is _complicated_.
 
-If you are looking for a way to do all the bundling and transpiling tasks above and more without installing separate node packages, then consider switching from NodeJS to [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno/). It does all that and more.
+If you are looking for a way to do all the bundling and transpiling tasks above and more without installing separate node packages, then consider switching from Node.js to [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno/). It does all that and more.
 
 
 ## Requirements
@@ -27,13 +27,14 @@ If you are looking for a way to do all the bundling and transpiling tasks above 
 
 ## System dependencies
 
-Install Node.js - follow these [gist instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
+Install Node.js - follow [gist instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
 
 ## Clone the repo.
 
 ```sh
 $ git clone git@github.com:MichaelCurrin/javascript-bundling-quickstarts.git
 ```
+
 
 ## Install project dependencies
 
@@ -43,12 +44,12 @@ Run this command to install dependencies for _all_ quickstarts. Otherwise skip t
 $ make install
 ```
 
+
 ## Usage
 
 Explore the examples in the [quickstarts](/quickstarts/) directory.
 
 To install and run an app, follow these steps:
-
 
 1. Navigate to a target app. e.g.
     ```sh
@@ -62,7 +63,7 @@ To install and run an app, follow these steps:
     ```sh
     $ npm run build
     ```
-4. Test in the browser if relevant.
+4. Test in the browser if relevant, or run the script use `node`.
 
 
 ## Why?
@@ -79,7 +80,6 @@ Features:
 - No need for namespacing your own application code.
 
 See [browserify](/quickstarts/browserify/) and [webpack](/quickstarts/webpack/) directories in this project. These compile using CommonJS modules. The output will be the same but with different styles for logging and output.
-
 
 ### Why transpile scripts?
 
@@ -100,6 +100,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [Rollup](http://rollupjs.org/)
 - [Brunch](http://brunch.io/) / [Broccoli](http://broccolijs.com/)
 - [Sprockets](https://github.com/rails/sprockets)
+- [Parcle](https://parceljs.org/)
 
 ### CSS bundlers
 
