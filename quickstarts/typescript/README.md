@@ -2,6 +2,8 @@
 
 Example of transpiling from TypeScript to plain JS.
 
+Note this is a very simple project - typically you would have more code, tests and configurations for linting and TypeScript.
+
 
 ## Packages used
 
@@ -31,10 +33,11 @@ Example of transpiling from TypeScript to plain JS.
 $ npm i
 ```
 
+
 ## Build
 
 ```sh
 $ npm run build
 ```
 
-There is no frontend to view but you can see the [dist](dist/) directory.
+There is no frontend to view but you can see the [dist](dist/) directory for output files. The JS script can be run using `node` and the path to the script.
