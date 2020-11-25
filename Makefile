@@ -1,11 +1,25 @@
-install:
-	cd quickstarts && for Q in *; do echo "$$Q" && (cd "$$Q" && npm i); done
+default: install
 
-build:
-	cd quickstarts && for Q in *; do echo "$$Q" && (cd "$$Q" && npm run build); done
+h help:
+		@egrep '^\S|^$$' Makefile
 
-lint:
-	eslint .
+i install:
+	cd quickstarts && \
+		for Q in *; do \
+			echo "$$Q" && \
+			(cd "$$Q" && npm install); \
+		done
 
-lint-fix:
+
+b build:
+	cd quickstarts && \
+		for Q in *; do \
+			echo "$$Q" && \
+			(cd "$$Q" && npm run build); \
+		done
+
+l lint-fix:
 	eslint . --fix
+
+lint-check:
+	eslint .
