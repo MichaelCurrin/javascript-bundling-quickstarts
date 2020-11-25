@@ -7,7 +7,7 @@ Note this is a very simple project. Typically you would have more code, tests an
 
 ## Packages used
 
-Note that Webpack or other Bundlers are not used here.
+Note that no bundlers like Webpack or Babel needed. Just TypeScript.
 
 - Typescript
     - [typescriptlang.org](https://www.typescriptlang.org/)
@@ -16,7 +16,7 @@ Note that Webpack or other Bundlers are not used here.
     - [Types](https://github.com/DefinitelyTyped/DefinitelyTyped/) on GitHub.
         - This is the preferred method. For example:
             ```sh
-            $ npm install --save-dev @types/PACKAGE
+            $ npm install -D @types/PACKAGE
             ```
         - The types should then be automatically included by the compiler. You may need to add a types reference if you're not using modules:
             ```typescript
