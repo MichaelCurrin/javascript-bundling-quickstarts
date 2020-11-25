@@ -1,5 +1,5 @@
 # Typescript Webpack
-> Example of how to add TS to an existing Webpack JS project
+> How to add TS to an existing JS project
 
 
 ## Convert a JS project to TS
@@ -31,9 +31,7 @@ Note that you can use TypeScript without Webpack - see [typescript](/quickstarts
     - The `.ts` and `.tsx` files will be handled by `awesome-typescript-loader`.
     - The `.js` files will have any source-maps re-processed by `source-map-loader`.
 5. Rename `.js` files to `.ts` and `.jsx` to `.tsx`.
-6. Add a `build` or `compile` step to your [package.json](package.json).
-    - I can't see the point of setting `include` as `src/**/*` in your TS config. As you still need `tsc -p .` in your build step. Using `tsc` ends up being too broad for what it copies to `dist`.
-    - Also note that `tsc -p src` is bad idea as it will give an error that your TS config is missing.
+6. Add a `build` step to your [package.json](package.json).
 7. Install [types](https://www.npmjs.com/~types) for 3rd-party libraries. e.g.
     ```sh
     $ npm install @types/jquery
