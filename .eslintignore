@@ -1,5 +1,5 @@
-# This must be test as it is not builtin.
+# This must be tested as it is not builtin.
 **/node_modules/**
 
-# Avoid many errors on compiled files.
+# Avoid errors on compiled files.
 **/dist/
