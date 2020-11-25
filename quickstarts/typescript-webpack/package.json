@@ -1,0 +1,12 @@
+{
+  "name": "ts-webpack-quickstart",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^1.1.2",
+    "typescript": "^3.9.7",
+    "webpack": "^5.6.0"
+  }
+}
