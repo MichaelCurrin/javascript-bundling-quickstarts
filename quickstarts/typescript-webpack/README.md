@@ -6,7 +6,7 @@
 
 Based on [Converting Existing JavaScript to TypeScript](https://www.tutorialsteacher.com/typescript/converting-javascript-to-typescript) on Tutorials Teacher.
 
-### Warning
+### ⚠️ Warning
 
 I'm not confident in the quality of that tutorial.
 
