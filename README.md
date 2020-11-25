@@ -95,6 +95,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [Webpack](http://webpack.github.io/)
     - [Getting started with Webpack](webpack.github.io/docs/tutorials/getting-started/)
     - [Concepts](https://webpack.js.org/concepts)
+    - [Configuration](https://webpack.js.org/configuration/)
 - [Browserify](http://browserify.org/)
 - [JSPN](http://jspm.io/)
 - [Rollup](http://rollupjs.org/)
