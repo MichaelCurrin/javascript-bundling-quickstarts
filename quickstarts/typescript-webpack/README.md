@@ -54,22 +54,14 @@ double('abc')
 ```
 
 
-## How to use this quickstart
-
-```sh
-$ cd quickstarts/typescript-webpack
-```
-
-### Install
+## Install
 
 ```sh
 $ npm i
 ```
 
-
-### Build
+## Build
 
 ```sh
 $ npm run build
-$ ls dist
 ```
