@@ -2,15 +2,36 @@
 > How to add TS to an existing JS project
 
 
+## Packages used
+
+- `awesome-typescript-loader``
+- `source-map-loader`
+- `typescript`
+- `webpack`
+
+
+## Install
+
+```sh
+$ npm i
+```
+
+## Build
+
+```sh
+$ npm run build
+```
+
+
 ## Convert a JS project to TS
 
 Based on [Converting Existing JavaScript to TypeScript](https://www.tutorialsteacher.com/typescript/converting-javascript-to-typescript) on Tutorials Teacher.
 
 ### ⚠️ Warning
 
-I'm not confident in the quality of that tutorial.
+I'm not confident in the quality of that tutorial above which was used fo this section.
 
-It leaves out some steps like installing TypeScript, running TypeScript (or Webpack CLI?) and enabling source maps. The current latest awesome loader doesn't work with the latest TS 4.
+It leaves out some steps like installing TypeScript, running TypeScript and Webpack CLI and enabling source maps. The current latest awesome loader doesn't work with the latest TS 4.
 
 So see also [TypeScript](https://webpack.js.org/guides/typescript/) guide on the Webpack docs for a more robust example.
 
@@ -49,17 +70,4 @@ The `double` function expects a number. So if we call it with a string like `dou
 Argument of type 'string' is not assignable to parameter of type 'number'.
 
 double('abc')
-```
-
-
-## Install
-
-```sh
-$ npm i
-```
-
-## Build
-
-```sh
-$ npm run build
 ```
