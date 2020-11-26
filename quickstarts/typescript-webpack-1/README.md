@@ -16,6 +16,17 @@ $ npm run build
 ```
 
 
+## Packages used
+
+- `webpack`
+- `webpack-cli`
+- `typescript`
+- `ts-loader`
+    - From the docs:
+        > We use `ts-loader` in this guide as it makes enabling additional webpack features, such as importing other web assets, a bit easier.
+- `lodash`
+
+
 ## Setup steps
 
 1. Install Webpack.
@@ -26,7 +37,6 @@ $ npm run build
     ```sh
     $ npm install -D typescript ts-loader
     ```
-    > We use `ts-loader` in this guide as it makes enabling additional webpack features, such as importing other web assets, a bit easier.
 3. Setup [tsconfig.json](tsconfig.json).
 4. Setup [webpack.config.js](webpack.config.js).
     > This will direct webpack to enter through `./index.ts`, load all .ts and `.tsx` files through the `ts-loader`, and output a bundle.js file in our current directory.

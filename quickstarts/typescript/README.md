@@ -7,9 +7,9 @@ Note this is a very simple project. Typically you would have more code, tests an
 
 ## Packages used
 
-Note that no bundlers like Webpack or Babel needed. Just TypeScript.
+Note that **no bundlers** like Webpack or Babel needed to convert to JS. Just TypeScript.
 
-- Typescript
+- `typescript`
     - [typescriptlang.org](https://www.typescriptlang.org/)
     - JavaScript with type safety checks. Requires steps to validate types and to transpile to plain JS.
     - [Modules](https://www.typescriptlang.org/Handbook#modules)
@@ -23,10 +23,10 @@ Note that no bundlers like Webpack or Babel needed. Just TypeScript.
             /// <reference types="node" />
             ```
         - [Handbook](http://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html)
-- [lodash](https://www.npmjs.com/package/lodash)
-- [@types/lodash](https://www.npmjs.com/package/@types/lodash)
 - [@types/node](https://www.npmjs.com/package/@types/node)
     - Included here to avoid error when using `require`. Using `import _ from 'lodash'` gave issues because of the underscore but it is fine when using `require`.
+- [lodash](https://www.npmjs.com/package/lodash)
+- [@types/lodash](https://www.npmjs.com/package/@types/lodash)
 
 
 ## Install

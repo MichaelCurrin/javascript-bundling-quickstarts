@@ -1,12 +1,12 @@
 # Webpack + Babel + TypeScript quickstart
 
-Extends the [Webpack example](../webpack/) by adding support for TypeScript and Babel (to transpile the TypeScript).
+Extends the [Webpack example](../webpack/) by adding support for TypeScript and Babel.
 
 
 ## Packages used
 
 - [webpack](http://webpack.github.io/) package
-- `webpack-cli` package - Webpack fails without this.
+- `webpack-cli` package - The `webpack` command will fail without this.
     - [docs](https://webpack.js.org/api/cli/)
     - [npm](https://www.npmjs.com/package/webpack-cli)
         - Usage without config:
@@ -15,6 +15,10 @@ Extends the [Webpack example](../webpack/) by adding support for TypeScript and 
             $ # e.g.
             $ webpack src/index.js -o dist/bundle.js
             ```
+- Babel
+    - `babel-loader` - There are other loaders available like `ts-loader` to convert TS to JS. This is a Babel one.
+    - `@babel/core`
+    - `@babel/preset-env`
 - [lodash](https://www.npmjs.com/package/lodash)
 
 
