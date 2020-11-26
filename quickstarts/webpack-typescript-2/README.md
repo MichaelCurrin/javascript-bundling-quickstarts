@@ -4,7 +4,7 @@
 
 ## Packages used
 
-- `awesome-typescript-loader``
+- `awesome-typescript-loader`
 - `source-map-loader`
 - `typescript`
 - `webpack`
