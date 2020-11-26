@@ -93,15 +93,16 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 ### JS bundlers
 
 - [Webpack](http://webpack.github.io/)
-    - [Getting started with Webpack](webpack.github.io/docs/tutorials/getting-started/)
+    - [Getting started with Webpack](https://webpack.github.io/docs/tutorials/getting-started/) or [Getting Started](https://webpack.js.org/guides/getting-started/).
     - [Concepts](https://webpack.js.org/concepts)
     - [Configuration](https://webpack.js.org/configuration/)
+    - [CLI](https://webpack.js.org/api/cli/)
 - [Browserify](http://browserify.org/)
 - [JSPN](http://jspm.io/)
 - [Rollup](http://rollupjs.org/)
 - [Brunch](http://brunch.io/) / [Broccoli](http://broccolijs.com/)
 - [Sprockets](https://github.com/rails/sprockets)
-- [Parcle](https://parceljs.org/)
+- [Parcel](https://parceljs.org/)
 
 ### CSS bundlers
 
@@ -117,6 +118,8 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [TypeScript](http://www.typescriptlang.org/)
     - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
     - [React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) in TS docs.
+    - [TypeScript](https://webpack.js.org/guides/typescript/) guide on Webpack docs.
+    - [CLI options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
 ### Dynamic loading of JS modules
 
