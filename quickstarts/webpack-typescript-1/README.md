@@ -54,7 +54,9 @@ $ npm run build
 
 ## Non-code assets
 
-Add custom types for non-code assets such as SVGS.
+Add custom types for non-code assets.
+
+Such as `.svg` files.
 
 - `custom.d.ts`
     ```typescript
@@ -66,6 +68,23 @@ Add custom types for non-code assets such as SVGS.
 
 > Here we declare a new module for SVGs by specifying any import that ends in `.svg` and defining the module's content as any. We could be more explicit about it being a url by defining the type as string. The same concept applies to other assets including CSS, SCSS, JSON and more.
 
+Or `.vue` files.
+
+- `shims-vue.d.ts`
+    ```typescript
+    declare module '*.vue' {
+      import type { DefineComponent } from 'vue'
+      const component: DefineComponent<{}, {}, any>
+      export default component
+    }
+    ```
+    Or older style:
+    ```typescript
+    declare module "*.vue" {
+        import Vue from "vue";
+        export default Vue;
+    }
+    ```
 
 ## Build performance
 
