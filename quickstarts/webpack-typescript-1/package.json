@@ -1,5 +1,5 @@
 {
-  "name": "ts-webpack-1-quickstart",
+  "name": "webpack-ts-1-quickstart",
   "scripts": {
     "clean": "rm -rf dist/",
     "bundle": "webpack",
