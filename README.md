@@ -1,6 +1,8 @@
 # JavaScript Bundling Quickstarts
 > How to transpile and bundle your JS - using Webpack, Browserify, Babel or TypeScript
 
+[![Node.js - >=12](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+
 
 ## Featured tools
 
@@ -25,18 +27,18 @@ If you are looking for a way to do all the bundling and transpiling tasks above 
 
 ## Installation
 
-## System dependencies
+### System dependencies
 
 Install Node.js - follow [gist instructions](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba)
 
-## Clone the repo.
+### Clone the repo.
 
 ```sh
 $ git clone git@github.com:MichaelCurrin/javascript-bundling-quickstarts.git
+$ cd javascript-bundling-quickstarts
 ```
 
-
-## Install project dependencies
+### Install project dependencies
 
 Run this command to install dependencies for _all_ quickstarts. Otherwise skip to the next section to install dependencies for a chosen project.
 
@@ -66,7 +68,7 @@ To install and run an app, follow these steps:
 4. Test in the browser if relevant, or run the script use `node`.
 
 
-## Why?
+## Why use these tools?
 
 ### Why bundle scripts?
 
@@ -148,7 +150,7 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 
 Install `eslint` globally.
 
-Check for errors.
+Check for errors and warnings. There will be some warnings but these are okay.
 
 ```sh
 $ make lint
