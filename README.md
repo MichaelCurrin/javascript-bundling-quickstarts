@@ -8,10 +8,10 @@
 
 This project provides a couple of standalone starter samples in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools.
 
-- Webpack (bundle to single JS file)
-- Browserify (also bundle to single JS file)
-- Babel (transpile from ES6 to older JS)
-- TypeScript (transpile to JS)
+- Webpack - bundle to a single JS file
+- Browserify - bundle to a single JS file
+- Babel - transpile from ES6 to older JS
+- TypeScript - transpile from TS to JS
 
 Some sections include an `index.html` to test the JS in the browser.
 
