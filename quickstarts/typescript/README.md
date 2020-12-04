@@ -2,7 +2,7 @@
 
 Example of transpiling from TypeScript to plain JS.
 
-Note this is a very simple project. Typically you would have more code, tests and config files around linting and TypeScript.
+Note this is a very simple project. Arguments are passed to the `tsc` command in [package.json](package.json) - normally you have a config files around linting and TypeScript. In a real proejct you would have more code and also hopefully tests. 
 
 
 ## Packages used
