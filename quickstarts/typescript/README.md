@@ -1,8 +1,12 @@
 # TypeScript
 
-Example of transpiling from TypeScript to plain JS.
+Example of transpiling from TypeScript to plain JS. 
 
-Note this is a very simple project. Arguments are passed to the `tsc` command in [package.json](package.json) - normally you have a config files around linting and TypeScript. In a real proejct you would have more code and also hopefully tests. 
+Note this is a very simple app.
+
+- No package is used to do any bundling. If there are multiple `.ts` files, then multiple `.js` files get created in the output directory.
+- Arguments are passed to the `tsc` command in [package.json](package.json) - normally you have a config files around ESLint and TypeScript (see `tsconfig.json` in other quickstarts).
+- In a real project you would have more code and also hopefully tests. 
 
 
 ## Packages used
