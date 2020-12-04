@@ -14,9 +14,10 @@ Note this is a very simple app.
 Note that **no bundlers** like Webpack or Babel needed to convert to JS. Just TypeScript.
 
 - `typescript`
-    - [typescriptlang.org](https://www.typescriptlang.org/)
     - JavaScript with type safety checks. Requires steps to validate types and to transpile to plain JS.
-    - [Modules](https://www.typescriptlang.org/Handbook#modules)
+    - [typescriptlang.org](https://www.typescriptlang.org/)
+    - [Modules](https://www.typescriptlang.org/Handbook#modules) in the docs.
+    - [Type Declaration](http://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html) in the docs.
     - [Types](https://github.com/DefinitelyTyped/DefinitelyTyped/) on GitHub.
         - Install a types package for a 3rd-party. These are available under a single `@types` org reference in NPM.
         - This is the preferred method:
@@ -30,7 +31,6 @@ Note that **no bundlers** like Webpack or Babel needed to convert to JS. Just Ty
             ```typescript
             /// <reference types="node" />
             ```
-        - [Handbook](http://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html)
 - Node
     - [@types/node](https://www.npmjs.com/package/@types/node)
     - Included here to avoid error when using `require`. Using `import _ from 'lodash'` gave issues because of the underscore but it is fine when using `require`.
