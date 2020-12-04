@@ -14,19 +14,25 @@ Note that **no bundlers** like Webpack or Babel needed to convert to JS. Just Ty
     - JavaScript with type safety checks. Requires steps to validate types and to transpile to plain JS.
     - [Modules](https://www.typescriptlang.org/Handbook#modules)
     - [Types](https://github.com/DefinitelyTyped/DefinitelyTyped/) on GitHub.
-        - This is the preferred method. For example:
+        - Install a types package for a 3rd-party. These are available under a single `@types` org reference in NPM.
+        - This is the preferred method:
             ```sh
             $ npm install -D @types/PACKAGE
+            
+            $ # e.g.
+            $ npm install -D @types/lodash
             ```
-        - The types should then be automatically included by the compiler. You may need to add a types reference if you're not using modules:
+        -  You may also need to add a types reference at the top of a script, if you're not using modules:
             ```typescript
             /// <reference types="node" />
             ```
         - [Handbook](http://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html)
-- [@types/node](https://www.npmjs.com/package/@types/node)
+- Node
+    - [@types/node](https://www.npmjs.com/package/@types/node)
     - Included here to avoid error when using `require`. Using `import _ from 'lodash'` gave issues because of the underscore but it is fine when using `require`.
-- [lodash](https://www.npmjs.com/package/lodash)
-- [@types/lodash](https://www.npmjs.com/package/@types/lodash)
+- Lodash
+    - [lodash](https://www.npmjs.com/package/lodash) on NPM
+    - [@types/lodash](https://www.npmjs.com/package/@types/lodash) on NPM
 
 
 ## Install
