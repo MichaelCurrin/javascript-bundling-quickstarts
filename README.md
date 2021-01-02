@@ -8,10 +8,10 @@
 
 This project provides a couple of standalone starter samples in the [quickstarts](/quickstarts/) directory. Each can be run locally to demonstrate how to use one or more of these JS tools.
 
-- Webpack - bundle to a single JS file
-- Browserify - bundle to a single JS file
-- Babel - transpile from ES6 to older JS
-- TypeScript - transpile from TS to JS
+- Webpack - to bundle to a single JS file
+- Browserify - to bundle to a single JS file
+- Babel - to transpile from ES6 to older JS
+- TypeScript - to transpile from TS to JS
 
 Some sections include an `index.html` to test the JS in the browser.
 
@@ -92,57 +92,10 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 
 ## Resources
 
-### JS bundlers
-
-- [Webpack](http://webpack.github.io/)
-    - [Getting started with Webpack](https://webpack.github.io/docs/tutorials/getting-started/) or [Getting Started](https://webpack.js.org/guides/getting-started/).
-    - [Concepts](https://webpack.js.org/concepts)
-    - [Configuration](https://webpack.js.org/configuration/)
-    - [CLI](https://webpack.js.org/api/cli/)
-- [Browserify](http://browserify.org/)
-- [JSPM](http://jspm.io/)
-    - > jspm.dev native modules CDN for npm documentation.
-- [Rollup](http://rollupjs.org/)
-- [Brunch](http://brunch.io/) / [Broccoli](http://broccolijs.com/)
-- [Sprockets](https://github.com/rails/sprockets)
-- [Parcel](https://parceljs.org/)
-
-### CSS bundlers
-
-- `css-loader`
-- `style-loader`
-
-### JS transpilers
-
-- [Babel](https://babeljs.io/)
-    - This can do a lot and the site covers it well.
-    - One use-case is transpiling JSX syntax for React to just JS.
-    - Another is transpiling ES6 to older JS.
-- [TypeScript](http://www.typescriptlang.org/)
-    - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-    - [React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) in TS docs.
-    - [TypeScript](https://webpack.js.org/guides/typescript/) guide on Webpack docs.
-    - [CLI options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
-
-### Dynamic loading of JS modules
-
-- [Require.js](https://requirejs.org)
-- [System.js](https://github.com/systemjs/systemjs)
-
-### Live servers
-
-- [live-server](https://www.npmjs.com/package/live-server)
-    - A great zero-config HTTP server with live reload capability.
-    - It has about 150 dependencies though.
-    - Install it globally with:
-        ```sh
-        $ npm install -g live-server
-        ```
-    - Run it from your project root.
-        ```sh
-        $ live-server
-        ```
-- VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+- [JS bundlers](https://michaelcurrin.github.io/dev-resources/resources/javascript/bundlers.html)
+- [JS transpilers](https://michaelcurrin.github.io/dev-resources/resources/javascript/transpilers.html)
+- [CSS bundlers](https://michaelcurrin.github.io/dev-resources/resources/javascript/css-loaders.html)
+- [Live servers](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95)
 
 
 ## Development
