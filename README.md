@@ -100,7 +100,8 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
     - [Configuration](https://webpack.js.org/configuration/)
     - [CLI](https://webpack.js.org/api/cli/)
 - [Browserify](http://browserify.org/)
-- [JSPN](http://jspm.io/)
+- [JSPM](http://jspm.io/)
+    - > jspm.dev native modules CDN for npm documentation.
 - [Rollup](http://rollupjs.org/)
 - [Brunch](http://brunch.io/) / [Broccoli](http://broccolijs.com/)
 - [Sprockets](https://github.com/rails/sprockets)
