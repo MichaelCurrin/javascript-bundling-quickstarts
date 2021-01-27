@@ -10,7 +10,7 @@ This project provides a couple of standalone starter samples in the [quickstarts
 
 - Webpack - to bundle to a single JS file
 - Browserify - to bundle to a single JS file
-- Babel - to transpile from ES6 to older JS
+- Babel - to transpile from modern JS to older JS for compatibility and also handles JSX to JS.
 - TypeScript - to transpile from TS to JS
 
 Some sections include an `index.html` to test the JS in the browser.
@@ -96,6 +96,8 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [JS transpilers](https://michaelcurrin.github.io/dev-resources/resources/javascript/transpilers.html)
 - [CSS bundlers](https://michaelcurrin.github.io/dev-resources/resources/javascript/css-loaders.html)
 - [Live servers](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95)
+
+If you want to use Bundler in Webpack, consider [babel-loader](https://webpack.js.org/loaders/babel-loader/) guide under Webpack leaders.
 
 
 ## Development
