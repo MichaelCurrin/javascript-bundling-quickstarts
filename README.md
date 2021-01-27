@@ -97,8 +97,6 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 - [CSS bundlers](https://michaelcurrin.github.io/dev-resources/resources/javascript/css-loaders.html)
 - [Live servers](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95)
 
-If you want to use Bundler in Webpack, consider [babel-loader](https://webpack.js.org/loaders/babel-loader/) guide under Webpack leaders.
-
 
 ## Development
 
