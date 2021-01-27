@@ -1,5 +1,11 @@
 # Webpack
 
+Webpack is one of the more widely used choices for bundling multiple JS files as one.
+
+If you want to compress SVGs, images and other files as zip files, see the
+[Webpack compression](https://webpack.js.org/plugins/compression-webpack-plugin/) instructions.
+
+
 ## Packages used
 
 - [webpack](http://webpack.github.io/) package
