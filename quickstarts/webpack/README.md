@@ -1,6 +1,9 @@
 # Webpack
 
-Webpack is one of the more widely used choices for bundling multiple JS files as one.
+Webpack is one of the most widely used choices for bundling multiple JS files as one.
+
+
+## Minifification and compression
 
 From Webpack v4 on, the default behavior in production mode is to _minify_ your JS files using TerserPlugin, such as to create `bundle.min.js`.
 
@@ -11,6 +14,13 @@ See more info:
 
 If you want to compress SVGs, images and other files as zip files, see the
 [Webpack compression](https://webpack.js.org/plugins/compression-webpack-plugin/) instructions.
+
+
+## Extending
+
+If you want to use Babel in Webpack, consider [babel-loader](https://webpack.js.org/loaders/babel-loader/) guide under Webpack loaders. See also the [Webpack Babel TypeScript](/quickstarts/webpack-babel-typescript/) quickstart.
+
+If you want to handle CSS, see [style-loaders](https://webpack.js.org/loaders/style-loader/) guide.
 
 
 ## Packages used
