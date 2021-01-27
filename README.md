@@ -19,10 +19,30 @@ Most of this project is based on this article - [Understanding JavaScript Module
 
 If you are looking for a way to do all the bundling and transpiling tasks above and more without installing separate node packages, then consider switching from Node.js to [Deno](https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/javascript/deno/). It does all that and more.
 
+### Choosing 
+
+The most popular in the community seem to be Webpack, Babel and TypeScript, so you'll probably be fine setting those up in your project.
+
+There are an overwhelming number of alternatives and additional loaders like for CSS. These are covered in [Resources](#resources) section.
+
+### Bundling without Node or 3rd party packages
+
+If you are struggling to decide between, configure and learn a bundling and transpilation tool, you may be interested in an alternative to Node called Deno.
+
+It can handle running TypeScript and converting to a single bundled JS file without any external dependencies to install or configure.
+
+```sh
+$ deno run index.ts
+$ demo bundle index.ts build/bundle.js
+```
+
+See my [Deno Project Template](https://github.com/MichaelCurrin/deno-project-template) for more info.
+
 
 ## Requirements
 
 - Node.js
+
 
 
 ## Installation
