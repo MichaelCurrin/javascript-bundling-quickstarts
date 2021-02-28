@@ -1,7 +1,7 @@
 default: install
 
 h help:
-		@egrep '^\S|^$$' Makefile
+		@grep '^[a-z]' Makefile
 
 i install:
 	cd quickstarts && \
@@ -10,6 +10,12 @@ i install:
 			(cd "$$Q" && npm install); \
 		done
 
+upgrade:
+	cd quickstarts && \
+		for Q in *; do \
+			echo "$$Q" && \
+			(cd "$$Q" && npm upgrade); \
+		done
 
 b build:
 	cd quickstarts && \
