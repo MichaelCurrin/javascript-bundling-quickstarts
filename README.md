@@ -119,9 +119,14 @@ See the [babel](/quickstarts/babel/) and [typescript](/quickstarts/typescript) d
 
 ## Development
 
-### Lint
+### Format
 
-Install `eslint` globally.
+```sh
+$ make fmt
+```
+
+
+### Lint
 
 Check for errors and warnings. There will be some warnings but these are okay.
 
@@ -134,8 +139,6 @@ Apply fixes.
 ```sh
 $ make lint-fix
 ```
-
-Commit and push.
 
 
 ## License
