@@ -4,8 +4,8 @@
     "build": "webpack src/index.js -o dist/bundle.js"
   },
   "devDependencies": {
-    "lodash": "^4.17.15",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "lodash": "^4.17.21",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   }
 }
