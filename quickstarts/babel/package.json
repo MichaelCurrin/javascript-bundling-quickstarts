@@ -5,7 +5,7 @@
     "build-separate": "babel src --out-dir dist/"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2"
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8"
   }
 }
