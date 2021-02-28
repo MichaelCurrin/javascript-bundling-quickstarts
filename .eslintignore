@@ -1,4 +1,4 @@
-# This must be tested as it is not builtin.
+# This must be listed as it is not builtin.
 **/node_modules/**
 
 # Avoid errors on compiled files.
