@@ -18,6 +18,9 @@ b build:
 			(cd "$$Q" && npm run build); \
 		done
 
+fmt:
+    npx prettier -w '**/**.{js,ts,json}'
+
 l lint-fix:
 	eslint . --fix
 
