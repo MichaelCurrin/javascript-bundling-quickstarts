@@ -19,7 +19,7 @@ b build:
 		done
 
 fmt:
-    npx prettier -w '**/**.{js,ts,json}'
+	npx prettier -w '**/**.{js,ts,json}'
 
 l lint-fix:
 	eslint . --fix
