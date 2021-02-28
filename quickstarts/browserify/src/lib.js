@@ -3,5 +3,5 @@ var double = function (number) {
 };
 
 module.exports = {
-  double: double
+  double: double,
 };

@@ -1,4 +1,4 @@
-var lib = require('./lib.js');
+var lib = require("./lib.js");
 
-console.log('Lib test');
+console.log("Lib test");
 console.log(lib.double(2));

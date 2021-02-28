@@ -5,7 +5,7 @@ module.exports = {
   entry: "./index",
   output: {
     path: __dirname,
-    filename: "bundle.js"
+    filename: "bundle.js",
   },
 
   module: {
@@ -15,17 +15,17 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: "ts-loader"
-          }
-        ]
+            loader: "ts-loader",
+          },
+        ],
       },
       {
         test: /\.js$/,
         loader: "babel-loader",
         query: {
-          presets: ["@babel/preset-env"]
-        }
-      }
-    ]
-  }
+          presets: ["@babel/preset-env"],
+        },
+      },
+    ],
+  },
 };
