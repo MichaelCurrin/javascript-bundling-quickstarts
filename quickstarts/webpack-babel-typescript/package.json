@@ -1,5 +1,5 @@
 {
-  "name": "webpack-quickstart",
+  "name": "webpack-babel-typescript-quickstart",
   "scripts": {
     "build": "webpack src/index.js -o dist/bundle.js"
   },
