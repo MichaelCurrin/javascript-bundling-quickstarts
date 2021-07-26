@@ -17,7 +17,7 @@ The content of this starter is:
 
 - [index.html](index.html)
 - [src/index.tsx](src/index.tsx)
-- [src/components](src/components) - see 3 TSX component modules
+- [src/components](src/components) - see 3 TSX component modules.
 
 ### Configuration
 
