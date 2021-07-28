@@ -6,8 +6,12 @@ Example of transpiling from ES6 to older ES5 JS for compatibility.
 ## Packages used
 
 - Babel
-    - [npm package](https://www.npmjs.com/package/Babel)
-        - More specifically, we use `@babel/cli` and `@babel/core` but `babel-cli` would work too. Note that `babel` is not needed for package list.
+    - [@babel/cli](https://www.npmjs.com/package/@babel/cli) on NPM.
+        > Babel command line.
+    - [@babel/core](https://www.npmjs.com/package/@babel/core) on NPM.
+        > Babel compiler core.
+    - Note that `babel-cli` is no longer maintained (4 years old).
+    - Note that the `babel` package is not needed in package list. And if you installed it, you'd miss the CLI portion.
     - [babeljs.io/](https://babeljs.io/)
         - [Docs](https://babeljs.io/docs/en/) home
         - [Installation](https://babeljs.io/en/setup/#installation) - see CLI section.
