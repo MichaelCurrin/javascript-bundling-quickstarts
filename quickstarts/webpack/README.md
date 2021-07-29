@@ -3,7 +3,7 @@
 Webpack is one of the most widely used choices for bundling multiple JS files as one.
 
 
-## Minifification and compression
+## Minification and compression
 
 From Webpack v4 on, the default behavior in production mode is to _minify_ your JS files using TerserPlugin, such as to create `bundle.min.js`.
 
