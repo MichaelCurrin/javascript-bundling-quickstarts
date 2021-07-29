@@ -25,10 +25,12 @@ If you want to handle CSS, see [style-loaders](https://webpack.js.org/loaders/st
 
 ## Packages used
 
-- [webpack](http://webpack.github.io/) package
-- `webpack-cli` package - Note that Webpack fails without this.
+- Webpack
+    - [Homepage](http://webpack.github.io/)
+    - [npm](https://www.npmjs.com/package/webpack) package
+- Webpack CI package - Note that Webpack fails without this.
     - [docs](https://webpack.js.org/api/cli/)
-    - [npm](https://www.npmjs.com/package/webpack-cli)
+    - [npm](https://www.npmjs.com/package/webpack-cli) package
         - Usage without config:
             ```sh
             $ webpack <entry> [<entry>] -o <output>
