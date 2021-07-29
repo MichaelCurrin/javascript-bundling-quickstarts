@@ -1,7 +1,7 @@
 {
   "name": "webpack-quickstart",
   "scripts": {
-    "build": "webpack src/index.js -o dist/bundle.js"
+    "build": "webpack"
   },
   "devDependencies": {
     "lodash": "^4.17.21",
