@@ -1,5 +1,5 @@
 {
-  "name": "webpack-ts-1-quickstart",
+  "name": "webpack-ts-2-quickstart",
   "scripts": {
     "build": "tsc -p ."
   },
