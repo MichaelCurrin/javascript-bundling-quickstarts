@@ -4,6 +4,7 @@ Extends the [Webpack](/quickstarts/webpack/) quickstart by adding support for Ty
 
 See [babel-loader](https://webpack.js.org/loaders/babel-loader/) guide on Webpack docs.
 
+_This example is broken. There are issues loading Lodash as an ES Module._
 
 ## Packages used
 
