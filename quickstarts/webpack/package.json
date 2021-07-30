@@ -1,6 +1,7 @@
 {
   "name": "webpack-quickstart",
   "scripts": {
+    "start": "node dist/main.js",
     "build": "webpack"
   },
   "devDependencies": {
