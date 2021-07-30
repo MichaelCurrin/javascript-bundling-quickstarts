@@ -1,4 +1,7 @@
-var lib = require("./lib.js");
+const { double } = require("./lib.js");
 
-console.log("Lib test");
-console.log(lib.double(2));
+console.log("double");
+
+const input = 2
+const result = double(input)
+console.log(input, ' => ', result);
