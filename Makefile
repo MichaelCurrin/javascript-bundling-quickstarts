@@ -3,7 +3,7 @@ default: install
 h help:
 		@grep '^[a-z]' Makefile
 
-i install:
+install:
 	cd quickstarts && \
 		for Q in *; do \
 			echo "$$Q" && \
