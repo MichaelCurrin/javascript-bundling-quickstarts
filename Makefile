@@ -26,7 +26,7 @@ b build:
 
 
 fmt:
-	npx prettier -w '**/**.{js,ts,json}'
+	npx prettier -w '**/**.{js,jsx,ts,tsx,json}'
 
 l lint:
 	npx eslint . --fix
