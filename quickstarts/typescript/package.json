@@ -1,7 +1,7 @@
 {
   "name": "typescript-quickstart",
   "scripts": {
-    "start": "node dist/ts-lib.js",
+    "start": "node dist/index.js",
     "compile": "tsc -p .",
     "build": "rm -rf dist && npm run compile"
   },
