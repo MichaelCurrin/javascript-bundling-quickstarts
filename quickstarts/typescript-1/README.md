@@ -53,12 +53,3 @@ $ npm run build
 ```
 
 There is no frontend to view but you can see the [dist](dist/) directory for output files. The JS script can be run using `node` and the path to the script.
-
-
-## Structure
-
-This example is simple. Just a single TS file. And no TS config.
-
-If you compile multiple files like an `index.ts` and `ts-lib.ts` with `tsc src/*`, the output `index.js` file will try to input from `ts-lib.ts` as a TS file.
-
-You can use `tsc -p .` to solve this, but then need `tsconfig.json` file to avoid an error.
