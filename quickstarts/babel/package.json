@@ -2,7 +2,7 @@
   "name": "babel-quickstart",
   "scripts": {
     "build": "babel src --out-file dist/bundle.js",
-    "build-separate": "babel src --out-dir dist/"
+    "build-multi": "babel src --out-dir dist/"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
