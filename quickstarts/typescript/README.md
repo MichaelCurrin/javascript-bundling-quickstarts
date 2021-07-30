@@ -53,3 +53,10 @@ $ npm run build
 ```
 
 There is no frontend to view but you can see the [dist](dist/) directory for output files. The JS script can be run using `node` and the path to the script.
+
+
+## Structure
+
+I had issues using the ES Module approach. Such as `ts-lib.js` needed because `ts-lib` cannot be found when using ES Modules. But it is fine when using `require` style.
+
+And Lodash not available as it is CommonJS.
