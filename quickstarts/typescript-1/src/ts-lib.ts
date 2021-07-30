@@ -10,6 +10,8 @@ function addFive(value: number) {
   return _.sum([value, 5]);
 }
 
+console.log(addFive(12))
+
 export = {
   double,
   addFive,
