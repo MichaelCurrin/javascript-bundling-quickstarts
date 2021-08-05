@@ -1,13 +1,14 @@
-var sum = require("lodash/sum");
+const sum = require("lodash/sum");
 
-var double = function (number) {
+function double(number) {
   return number * 2;
 };
-var addFive = function (number) {
+
+function addFive(number) {
   return sum([number, 5]);
 };
 
 module.exports = {
-  double: double,
-  addFive: addFive,
+  double,
+  addFive
 };
