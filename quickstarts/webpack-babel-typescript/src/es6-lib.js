@@ -1,6 +1,8 @@
-import sum from "lodash/sum";
+import { sum } from "lodash";
 
-const double = (number) => number * 2;
-const addFive = (number) => sum([number, 5]);
-
-export { double, addFive };
+export function double(value) {
+  return value * 2;
+}
+export function addFive(value) {
+  return sum([value, 5]);
+}

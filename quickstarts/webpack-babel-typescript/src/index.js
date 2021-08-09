@@ -1,8 +1,10 @@
-import es6Lib from "./es6-lib.js";
-import tsLib from "./ts-lib.ts";
+// Works with and without `.js` extension.
+import { addFive, double } from "./es6-lib.js";
+// Note explict `.ts` extension to avoid error.
+import { addFive as addFiveTS, double as doubleTS } from "./ts-lib.ts";
 
-// FIXME libs are undefined
-// es6Lib.double(1);
-// tsLib.double(1);
+console.log(double(2));
+console.log(addFive(2));
 
-// import {double } from "./es6-lib.js";
+console.log(doubleTS(2));
+console.log(addFiveTS(2));

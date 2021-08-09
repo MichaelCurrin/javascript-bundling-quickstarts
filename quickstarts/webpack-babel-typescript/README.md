@@ -4,7 +4,6 @@ Extends the [Webpack](/quickstarts/webpack/) quickstart by adding support for Ty
 
 See [babel-loader](https://webpack.js.org/loaders/babel-loader/) guide on Webpack docs.
 
-_This example is broken. There are issues loading Lodash as an ES Module._
 
 ## Packages used
 
@@ -54,3 +53,12 @@ Or test with:
 ```sh
 $ node dist/bundle.js
 ```
+
+
+## Configuration
+
+Note the the Webpack configured is named with `.cjs` extension to make it CommonJS and support `module.exports`. Based on [answer](https://github.com/webpack/webpack-cli/issues/1622#issuecomment-640121458).
+
+- [webpack.config.cjs](webpack.config.cjs)
+
+Otherwise with `.js` or `.mjs`, even using `export default`, Webpack still sees the config as ES Module. And then gets an error internally that `import` syntax must be used.

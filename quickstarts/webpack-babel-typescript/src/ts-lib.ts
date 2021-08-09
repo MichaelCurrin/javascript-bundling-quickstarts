@@ -1,11 +1,10 @@
 /// <reference types="node" />
 /// <reference types="lodash" />
-var _ = require("lodash");
+import { sum } from "lodash";
 
-const double = (value: number) => value * 2;
-const addFive = (value: number) => _.sum([value, 5]);
-
-export = {
-  double,
-  addFive,
-};
+export function double(value: number) {
+  return value * 2;
+}
+export function addFive(value: number) {
+  return sum([value, 5]);
+}
