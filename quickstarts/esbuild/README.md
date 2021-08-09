@@ -5,6 +5,9 @@ Example of transpiling from ES6 to older ES5 JS for compatibility.
 
 ## Packages used
 
+- ES Build
+- Lodash
+
 
 ## Install
 
