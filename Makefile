@@ -19,16 +19,20 @@ upgrade:
 		done
 
 
-fmt:
+fmt-fix:
 	npx prettier -w '**/**.{js,jsx,ts,tsx,json}'
 
-l lint-fix:
+fmt-check:
+	npx prettier -c '**/**.{js,jsx,ts,tsx,json}'
+
+lint-fix:
 	npx eslint . --fix
 
 lint-check:
 	npx eslint .
 
-fix: fmt lint-fix
+fix: fmt-fix lint-fix
+check: fmt-check lint-check
 
 
 b build:
