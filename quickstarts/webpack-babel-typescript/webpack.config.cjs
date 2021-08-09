@@ -1,10 +1,12 @@
-module.exports = {
-  mode: "production",
+const path = require("path");
 
-  context: __dirname + "/src",
-  entry: "./index",
+module.exports = {
+  mode: "development",
+
+  context: path.join(__dirname, "src"),
+  entry: "./index.js",
   output: {
-    path: __dirname,
+    path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
 
