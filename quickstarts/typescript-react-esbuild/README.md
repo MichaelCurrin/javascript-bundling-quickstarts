@@ -2,6 +2,8 @@
 
 Example of transpiling from ES6 to older ES5 JS for compatibility.
 
+See also [esbuild](/quickstarts/esbuild/) quickstart.
+
 
 ## Packages used
 

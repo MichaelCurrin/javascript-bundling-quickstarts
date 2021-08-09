@@ -1,5 +1,6 @@
 {
   "name": "typescript-react-esbuild-quickstart",
+  "type": "module",
   "scripts": {
     "build": "esbuild --bundle --outfile=build/bundle.js --sourcemap src/index.tsx",
     "build:min": "esbuild --bundle --minify --outfile=build/bundle.min.js --sourcemap src/index.tsx"
