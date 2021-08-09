@@ -1,5 +1,7 @@
-# This must be listed as it is not builtin.
+# This must be listed as it is not built-in.
 **/node_modules/**
 
-# Avoid errors on compiled files.
+# Avoid errors on build files.
 **/dist/
+**/build/
+**/out/
