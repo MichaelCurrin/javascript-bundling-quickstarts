@@ -1,5 +1,7 @@
 default: install
 
+all: install check build
+
 h help:
 	@grep '^[a-z]' Makefile
 
