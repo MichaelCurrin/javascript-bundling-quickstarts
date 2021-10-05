@@ -2,7 +2,10 @@
 
 Example of transpiling from ES6 to older ES5 JS for compatibility.
 
-See also [typescript-react-esbuild](/quickstarts/typescript-react-esbuild/) quickstart.
+## Related
+
+- [typescript-react-esbuild](/quickstarts/typescript-react-esbuild/) quickstart section
+- [ES Build](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/bundlers/esbuild.html) in Dev Resources.
 
 
 ## Packages used
